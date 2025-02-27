@@ -1,0 +1,11 @@
+//Algoritmo "Custo_Total_Produto"
+      inteiro quantidade
+   real preco_custo, custo_total
+     escreva("Digite a quantidade de produtos: ")
+   leia(quantidade)
+   escreva("Digite o preço de custo de um produto: ")
+   leia(preco_custo)
+      custo_total <- quantidade * preco_custo
+   escreva("O custo total de todos os produtos é: ")
+   escreva(custo_total)
+Fimalgoritmo
