@@ -1,12 +1,17 @@
-// Algoritmo "Celsius_Para_Fahrenheit"
-   
+Algoritmo "Celsius_Para_Fahrenheit"
+   // Cabeçalho: Declaração das variáveis
    real celsius, fahrenheit
 
+   // Início do Algoritmo
+   Início
+      // Entrada de dados
+      escreva("Digite a temperatura em Celsius: ")
+      leia(celsius)
 
-   escreva("Digite a temperatura em Celsius: ")
-   leia(celsius)
+      // Processamento: conversão de Celsius para Fahrenheit
+      fahrenheit <- (9 / 5) * celsius + 32
 
-   fahrenheit <- (9 / 5) * celsius + 32
-
-
-   escreva("
+      // Saída do resultado
+      escreva("A temperatura em Fahrenheit é: ")
+      escreva(fahrenheit)
+   Fim
