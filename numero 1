@@ -1,0 +1,15 @@
+//Algoritmo "Quadrado_do_Numero"
+   // Declaração das variáveis
+   real numero, quadrado
+
+   // Entrada de dados
+   escreva("Digite um número: ")
+   leia(numero)
+
+   // Processamento
+   quadrado <- numero * numero
+
+   // Saída do resultado
+   escreva("O quadrado do número é: ")
+   escreva(quadrado)
+Fimalgoritmo
