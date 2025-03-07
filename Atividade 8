@@ -1,0 +1,32 @@
+// **************************************************************
+// *    ALGORITMO PARA CÁLCULO DE PRESTAÇÃO EM ATRASO           *
+// *    Autor:SAMUEL                                            *
+// *    Descrição: Calcula o valor final de uma prestação       *
+// *    em atraso após acréscimo e desconto, e o prejuízo.      *
+// **************************************************************
+
+INÍCIO  
+
+    // Declaração de variáveis  
+    DECLARE valor_prestacao, valor_acrescimo, valor_desconto, valor_final, prejuizo NUMÉRICO  
+
+    // Entrada de dados  
+    ESCREVA "Informe o valor da prestação em atraso: "  
+    LEIA valor_prestacao  
+
+    // Cálculo do acréscimo de 15%  
+    valor_acrescimo ← valor_prestacao * 0.15  
+    valor_com_acrescimo ← valor_prestacao + valor_acrescimo  
+
+    // Cálculo do desconto de 15% sobre o novo valor  
+    valor_desconto ← valor_com_acrescimo * 0.15  
+    valor_final ← valor_com_acrescimo - valor_desconto  
+
+    // Cálculo do prejuízo do comerciante  
+    prejuizo ← valor_acrescimo - valor_desconto  
+
+    // Exibição dos resultados  
+    ESCREVA "Valor final a pagar: R$ ", valor_final  
+    ESCREVA "Prejuízo do comerciante: R$ ", prejuizo  
+
+FIM
