@@ -1,0 +1,24 @@
+// **************************************************************
+// *    ALGORITMO PARA LER E EXIBIR NOME E IDADE                *
+// *    Autor: Samuel                                           *                   
+// *    Descrição: Lê o nome e a idade de uma pessoa e exibe    *
+// *    uma mensagem com as informações digitadas.              *
+// **************************************************************
+
+INÍCIO  
+
+    // Declaração de variáveis  
+    DECLARE nome TEXTO  
+    DECLARE idade NUMÉRICO  
+
+    // Entrada de dados  
+    ESCREVA "Digite seu nome: "  
+    LEIA nome  
+
+    ESCREVA "Digite sua idade: "  
+    LEIA idade  
+
+    // Exibição da mensagem  
+    ESCREVA "Olá, ", nome, "! Você tem ", idade, " anos."  
+
+FIM
