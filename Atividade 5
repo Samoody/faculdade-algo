@@ -1,0 +1,33 @@
+// **************************************************************
+// *    ALGORITMO OTIMIZADO PARA CÁLCULO DE CONSUMO E AUTONOMIA *
+// *    Autor: [Samuel                                        *
+// *                          *
+// **************************************************************
+
+INÍCIO  
+
+    // Declaração de variáveis  
+    DECLARE capacidade_tanque, litros_abastecidos, distancia_percorrida, consumo_medio NUMÉRICO  
+
+    // Entrada de dados  
+    ESCREVA "Capacidade total do tanque (litros): "  
+    LEIA capacidade_tanque  
+
+    ESCREVA "Litros abastecidos: "  
+    LEIA litros_abastecidos  
+
+    ESCREVA "Distância percorrida (km): "  
+    LEIA distancia_percorrida  
+
+    // Verificação e cálculo  
+    SE litros_abastecidos > 0 ENTÃO  
+        consumo_medio ← distancia_percorrida / litros_abastecidos  
+        
+        // Exibição direta sem variável extra  
+        ESCREVA "Consumo médio: ", consumo_medio, " km/l"  
+        ESCREVA "Autonomia estimada: ", (consumo_medio * capacidade_tanque), " km"  
+    SENÃO  
+        ESCREVA "Erro: Litros abastecidos deve ser maior que zero."  
+    FIMSE  
+
+FIM
