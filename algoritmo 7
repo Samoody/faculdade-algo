@@ -1,0 +1,41 @@
+// **************************************************************
+// *    ALGORITMO PARA CÁLCULO DE LATAS DE TINTA E CUSTO        *
+// *    Autor: Samuel                                       *                        *
+// *    Descrição: Calcula a quantidade de latas de tinta       *
+// *    necessárias e o custo total para pintar 6 cômodos.      *
+// **************************************************************
+
+INÍCIO  
+
+    // Declaração de variáveis  
+    DECLARE area_total, litros_necessarios, latas_necessarias, custo_total NUMÉRICO  
+
+    // Definição dos dados do problema  
+    DEFINA area_por_comodo COMO 10  
+    DEFINA quantidade_comodos COMO 6  
+    DEFINA rendimento_por_litro COMO 3  
+    DEFINA capacidade_lata COMO 5  
+    DEFINA preco_lata COMO 50  
+
+    // Cálculo da área total a ser pintada  
+    area_total ← area_por_comodo * quantidade_comodos  
+
+    // Cálculo da quantidade de litros de tinta necessários  
+    litros_necessarios ← area_total / rendimento_por_litro  
+
+    // Cálculo da quantidade de latas necessárias (arredondando para cima)  
+    SE (litros_necessarios MOD capacidade_lata) = 0 ENTÃO  
+        latas_necessarias ← litros_necessarios / capacidade_lata  
+    SENÃO  
+        latas_necessarias ← (litros_necessarios / capacidade_lata) + 1  
+    FIMSE  
+
+    // Cálculo do custo total  
+    custo_total ← latas_necessarias * preco_lata  
+
+    // Saída dos resultados  
+    ESCREVA "Área total a ser pintada: ", area_total, " m²"  
+    ESCREVA "Quantidade de latas necessárias: ", latas_necessarias  
+    ESCREVA "Custo total: R$ ", custo_total  
+
+FIM
