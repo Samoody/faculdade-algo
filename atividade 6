@@ -1,0 +1,30 @@
+// *    ALGORITMO PARA CÁLCULO DO CUSTO FINAL DE UM CARRO       *
+// *    Autor: [Samuel]                                                                    *
+// *   // *    Descrição: Calcula o valor pago à distribuidora,        *
+// *    impostos e o custo total ao consumidor.                 *
+
+
+INÍCIO  
+
+    // Declaração de variáveis  
+    DECLARE custo_fabrica, valor_distribuidor, valor_impostos, custo_consumidor NUMÉRICO  
+
+    // Definição das porcentagens fixas  
+    DEFINA percentual_distribuidor COMO 12  
+    DEFINA percentual_impostos COMO 45  
+
+    // Entrada de dados  
+    ESCREVA "Informe o custo de fábrica do carro: "  
+    LEIA custo_fabrica  
+
+    // Cálculo dos valores  
+    valor_distribuidor ← (percentual_distribuidor / 100) * custo_fabrica  
+    valor_impostos ← (percentual_impostos / 100) * custo_fabrica  
+    custo_consumidor ← custo_fabrica + valor_distribuidor + valor_impostos  
+
+    // Saída dos resultados  
+    ESCREVA "Valor pago à distribuidora: R$ ", valor_distribuidor  
+    ESCREVA "Valor dos impostos: R$ ", valor_impostos  
+    ESCREVA "Custo total ao consumidor: R$ ", custo_consumidor  
+
+FIM
