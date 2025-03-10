@@ -1,0 +1,20 @@
+// Cabeçalho
+// Autor: [SAMUEL]
+algoritmo "Imprimir Arara"
+// Início do algoritmo
+inicio
+    // Declaração de variáveis
+    caractere a, r
+
+    // Entrada de dados
+    escreva("Digite a letra 'a': ")
+    leia(a)
+    
+    escreva("Digite a letra 'r': ")
+    leia(r)
+
+    // Saída de dados em uma única chamada
+    escreva(a, r, a, r, a)
+
+// Fim do algoritmo
+fimalgoritmo
