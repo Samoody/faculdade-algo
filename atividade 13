@@ -1,0 +1,35 @@
+// Cabeçalho
+// Autor: [SAMUEL]
+algoritmo "Soma e Média de Cinco Números"
+// Início do algoritmo
+inicio
+    // Declaração de variáveis
+    real num1, num2, num3, num4, num5
+    real soma, media
+
+    // Entrada de dados
+    escreva("Digite o primeiro número: ")
+    leia(num1)
+    
+    escreva("Digite o segundo número: ")
+    leia(num2)
+    
+    escreva("Digite o terceiro número: ")
+    leia(num3)
+    
+    escreva("Digite o quarto número: ")
+    leia(num4)
+    
+    escreva("Digite o quinto número: ")
+    leia(num5)
+
+    // Cálculo da soma e da média
+    soma <- num1 + num2 + num3 + num4 + num5
+    media <- soma / 5
+
+    // Saída de dados
+    escreval("A soma dos números é: ", soma)
+    escreval("A média dos números é: ", media)
+
+// Fim do algoritmo
+fimalgoritmo
