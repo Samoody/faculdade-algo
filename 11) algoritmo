@@ -1,0 +1,38 @@
+// Cabeçalho
+algoritmo "Imprimir Letras"
+// Autor Samuel
+// Início do algoritmo
+inicio
+    // Declaração de variáveis
+    caractere letra1, letra2, letra3, letra4, letra5
+
+    // Entrada de dados
+    escreva("Digite a primeira letra: ")
+    leia(letra1)
+    
+    escreva("Digite a segunda letra: ")
+    leia(letra2)
+    
+    escreva("Digite a terceira letra: ")
+    leia(letra3)
+    
+    escreva("Digite a quarta letra: ")
+    leia(letra4)
+    
+    escreva("Digite a quinta letra: ")
+    leia(letra5)
+
+    // Saída de dados - Uma letra por linha
+    escreva("\nLetras digitadas (uma por linha):\n")
+    escreva(letra1, "\n")
+    escreva(letra2, "\n")
+    escreva(letra3, "\n")
+    escreva(letra4, "\n")
+    escreva(letra5, "\n")
+
+    // Saída de dados - Todas as letras na mesma linha
+    escreva("\nLetras digitadas (na mesma linha): ")
+    escreva(letra1, letra2, letra3, letra4, letra5, "\n")
+
+// Fim do algoritmo
+fimalgoritmo
