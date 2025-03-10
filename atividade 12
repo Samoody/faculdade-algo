@@ -1,0 +1,18 @@
+// Cabeçalho
+// Autor: Samuel
+algoritmo "Mensagem Centralizada na Caixa"
+// Início do algoritmo
+inicio
+    // Declaração de variável com a mensagem
+    cadeia mensagem
+    mensagem <- "#somostodosnewtonwayden"
+
+    // Impressão da caixa
+    escreval("**************************************")
+    escreval("*                                    *")
+    escreval("*      ", mensagem, "      *")
+    escreval("*                                    *")
+    escreval("**************************************")
+
+// Fim do algoritmo
+fimalgoritmo
