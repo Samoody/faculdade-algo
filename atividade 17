@@ -1,0 +1,32 @@
+// Cabeçalho
+// Autor: [Samuel]
+algoritmo "Inverter Número de Três Dígitos"
+// Início do algoritmo
+inicio
+    // Declaração de variáveis
+    inteiro numero, centena, dezena, unidade, invertido
+
+    // Entrada de dados
+    escreva("Digite um número inteiro de três dígitos: ")
+    leia(numero)
+
+    // Verificação para garantir que o número tem três dígitos
+    se (numero >= 100 e numero <= 999) entao
+        // Separando unidade, dezena e centena
+        unidade <- numero % 10
+        dezena <- (numero / 10) % 10
+        centena <- numero / 100
+
+        // Formando o número invertido
+        invertido <- (unidade * 100) + (dezena * 10) + centena
+
+        // Saída de dados
+        escreval("O número invertido é: ", invertido)
+    senao
+        escreval("Erro! O número deve ter exatamente três dígitos (100 a 999).")
+    fimse
+
+// Fim do algoritmo
+fimalgoritmo
+
+ 
