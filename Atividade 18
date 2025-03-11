@@ -1,0 +1,21 @@
+// Cabeçalho
+// Autor: [Samuel]
+algoritmo "Subtração e Multiplicação"
+// Início do algoritmo
+inicio
+    // Declaração e atribuição de variáveis
+    inteiro num1, num2, subtracao, multiplicacao
+
+    num1 <- 30
+    num2 <- 15
+
+    // Cálculos
+    subtracao <- num1 - num2
+    multiplicacao <- num1 * num2
+
+    // Saída de dados
+    escreval("O resultado da subtração é: ", subtracao)
+    escreval("O resultado da multiplicação é: ", multiplicacao)
+
+// Fim do algoritmo
+fimalgoritmo
