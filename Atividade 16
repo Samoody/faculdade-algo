@@ -1,0 +1,32 @@
+// Cabeçalho
+// Autor: [Samuel]
+algoritmo "Divisão e Resto"
+// Início do algoritmo
+inicio
+    // Declaração de variáveis
+    inteiro num1, num2, quociente, resto
+
+    // Entrada de dados
+    escreva("Digite o primeiro número: ")
+    leia(num1)
+    
+    escreva("Digite o segundo número: ")
+    leia(num2)
+
+    // Verificação para evitar divisão por zero
+    se num2 <> 0 entao
+        // Cálculo do quociente e do resto
+        quociente <- num1 / num2
+        resto <- num1 % num2
+
+        // Saída de dados
+        escreval()
+        escreval("Os números digitados foram: ", num1, " e ", num2)
+        escreval("O quociente da divisão é: ", quociente)
+        escreval("O resto da divisão é: ", resto)
+    senao
+        escreval("Erro! Não é possível dividir por zero.")
+    fimse
+
+// Fim do algoritmo
+fimalgoritmo
