@@ -1,0 +1,23 @@
+// Cabeçalho
+// Autor: [Samuel]
+algoritmo "Calculo da Área do Triângulo"
+// Início do algoritmo
+inicio
+    // Declaração de variáveis
+    real base, altura, area
+
+    // Entrada de dados
+    escreva("Digite a base do triângulo: ")
+    leia(base)
+    
+    escreva("Digite a altura do triângulo: ")
+    leia(altura)
+
+    // Cálculo da área do triângulo
+    area <- (base * altura) / 2
+
+    // Saída de dados
+    escreval("A área do triângulo é: ", area)
+
+// Fim do algoritmo
+fimalgoritmo
